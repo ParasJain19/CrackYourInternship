@@ -6,7 +6,7 @@ public:
         for(int i=0;i<s.length();i++)
         {
             if(s[i]=='#')
-            {  if(!a.empty())// most important ,use it here only not in main if cond
+            {  if(!a.empty())// most important ,check this cond here only not in main if cond
                a.pop();
             }
             else
@@ -17,7 +17,7 @@ public:
         for(int i=0;i<t.length();i++)
         {
             if(t[i]=='#')
-            {if(!b.empty())
+            {if(!b.empty())// most important ,check this cond here only not in main if cond
                b.pop();
             }
             else
